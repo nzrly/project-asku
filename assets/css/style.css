@@ -492,7 +492,7 @@
     transition: all 0.7s ease;
 }
 /* about page */
-.about-title h2 {
+.about-title h2, .review-header h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
@@ -504,4 +504,77 @@
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.05em;
+}
+.review-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 70px;
+}
+.review-user {
+    width: 100%;
+    height: 100%;
+    background-color: #082861;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.review-user-title {
+    margin-left: 20px;
+}
+.review-user-title h3 {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+.review-user-comment {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+.review-user-date {
+    float: right;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.75);
+}
+.review-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: end;
+}
+.review-link a {
+    text-decoration: none;
+    padding: 5px 50px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #082861;
+}
+.review-link a:hover {
+    color: #fff;
+    cursor: pointer;
 }
