@@ -865,3 +865,39 @@ select, option{
 .page-item .page-link {
     color: #082861;
 }
+/* Форма Корзины */
+.basket-form {
+    width: 100%;
+    margin: 91.5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.basket-form form {
+    display: flex;
+    flex-direction: column;
+}
+.basket-form input {
+    width: 315px;
+    height: 30px;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: 1px solid #A8D2F5;
+}
+.basket-form button {
+    width: 315px;
+    height: 45px;
+    background: #082861;
+    margin: 10px 0;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: none;
+}
